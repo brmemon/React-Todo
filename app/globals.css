@@ -5,9 +5,12 @@
 body{
     background-color: BLACK;
 }
+body ::selection{
+    background-color: rgb(255, 0, 0);
+    color: rgb(132, 255, 0);
+}
 
 h1,h2{
-    /* text-align: center; */
     font-size: larger;
     font-style: italic;
     text-decoration: underline;
